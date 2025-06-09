@@ -8,4 +8,8 @@ int mai(){
 
     // oprasi file dalam mode menulis    
     ofstream outfile;
+
+    //menunjukan seuah nama file untuk membuka
+    outfile.open("contohfile.txt");
+
 }
