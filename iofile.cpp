@@ -24,7 +24,9 @@ int mai(){
         //loop akan berhenti jika anda masukan karakter q
         if (baris == "q") break;
 
-        oufile << baris << endl;
+        outfile << baris << endl;
+
+        outfile.close();
 
     }
 }
