@@ -1,0 +1,1 @@
+cd "d:\SMESTER 2\pemrograman dasar\StreamReaderandWriter_0008\" ; if ($?) { g++ iofilewithpath.cpp -o iofilewithpath } ; if ($?) { .\iofilewithpath }
