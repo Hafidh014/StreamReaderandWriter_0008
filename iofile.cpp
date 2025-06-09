@@ -13,5 +13,10 @@ int mai(){
     outfile.open("contohfile.txt");
 
     cout << ">= menulis file, \'q\' untuk keluar" <<endl;
-    
+
+    //unlimited loop untuk menulis
+    while (true) {
+        cout << "- ";
+        
+    }
 }
