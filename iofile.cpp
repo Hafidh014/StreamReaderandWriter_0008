@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-int mai(){
+int main(){
     string baris;
 
     // oprasi file dalam mode menulis    
@@ -27,6 +27,8 @@ int mai(){
         outfile << baris << endl;
 
         outfile.close();
+
+        infile.open("contohfile.txt");
 
     }
 }
