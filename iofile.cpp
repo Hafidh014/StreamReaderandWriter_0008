@@ -12,4 +12,6 @@ int mai(){
     //menunjukan seuah nama file untuk membuka
     outfile.open("contohfile.txt");
 
+    cout << ">= menulis file, \'q\' untuk keluar" <<endl;
+    
 }
