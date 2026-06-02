@@ -12,4 +12,17 @@ int main()
     outfile.open("contohfile.txt");
     
     cout << ">= Menulis file, \'q\' untuk keluar" << endl;
+
+    while (true)
+    {
+        
+        cout << "- ";
+
+        getline(cin, baris);
+
+        if (baris == "q") break;
+
+        outfile << baris << endl;
+        
+    }
 }
